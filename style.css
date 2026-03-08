@@ -1,7 +1,8 @@
 body {
     margin: 0;
     font-family: "Poppins";
-    background: #e8d6dc
+    background: #e8d6dc;
+    cursor: default;
 }
 
 nav {
@@ -36,6 +37,31 @@ ul {
     padding: 20;
 }
 
+li:hover {
+    color: black;
+}
+
 .base-parent-nav {
     margin: 10 0;
+}
+
+.base-content {
+    font-family: "Poppins";
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: blueviolet;
+    transition: ease-in 0.1s 0s;
+}
+
+a:hover {
+    text-decoration: underline;
+    background-color: beige;
+    padding: 5px;
+    border-radius: 5px;
 }
