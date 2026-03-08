@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: "Poppins";
+    background: #e8d6dc
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+    color: #FFFFFF;
+    background-color: brown;
+}
+
+.mid-parent-nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 10;
+    width: 80%;
+}
+
+h1 {
+    text-align: center;
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+
+    list-style: none;
+    gap: 1rem;
+    padding: 20;
+}
+
+.base-parent-nav {
+    margin: 10 0;
+}
